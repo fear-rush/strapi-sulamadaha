@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "discover_sulamadahas",
+  "info": {
+    "singularName": "discover-sulamadaha",
+    "pluralName": "discover-sulamadahas",
+    "displayName": "discover-sulamadaha",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "locationName": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

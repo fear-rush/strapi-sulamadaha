@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_sulamadahas",
+  "info": {
+    "singularName": "blog-sulamadaha",
+    "pluralName": "blog-sulamadahas",
+    "displayName": "blog-sulamadaha",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "upperField": {
+      "type": "richtext"
+    },
+    "lowerField": {
+      "type": "richtext"
+    },
+    "upperImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "lowerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "ticket": {
+      "type": "richtext"
+    },
+    "activity": {
+      "type": "richtext"
+    },
+    "facility": {
+      "type": "richtext"
+    },
+    "transportation": {
+      "type": "richtext"
+    },
+    "highlight": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
